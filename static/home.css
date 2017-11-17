@@ -1,7 +1,25 @@
 body{
     background-color: rgb(17,17,17);
-    width:500px
+
     
+}
+
+#container{
+    width:1000px;
+}
+
+#leftblock{
+    margin-left:20%;
+    float: left;
+    height: 100px;
+    width: 3px;
+}
+
+#rightblock{
+    margin-right:20%;
+    float: right;
+    height: 100px;
+    width: 3px;
 }
 
 ul{
@@ -11,8 +29,8 @@ ul{
     background-color: rgb(17,17,17);
     position:fixed;
     top:0;
-    padding-left: 800;    
-    padding-top: 20;
+    padding-left: 500;    
+    padding-top: 40;
     border-top:1px;
     border-top:2px rgb(165,165,102) !important;
     border:rgb(165,165,102)
@@ -32,30 +50,65 @@ li a:hover{
 
 img {
     padding: 0px 0px;
-    height:30px;
+    height:35px;
 }
 li a{
     display:block;
     font-family: Arial, sans-serif;
     font-weight: bold;
-    font-size: 16;
+    font-size: 18;
     color:rgb(165,165,102);
     text-align:center;
     text-decoration: none;
-    padding: 20px 50px;
+    padding: 20px 100px;
 }
 
 iframe{
-    width: 700px;
-    height: 400px;
+    width: 600px;
+    height: 350px;
 
 
-    position:absolute; 
-    left:50; right:50;
-    top:0; bottom:50;
+    position:relative; 
+    padding-left:500; right:0;
+    top:0; bottom:0;
     margin:auto;
     max-width:100%;
     max-height:auto%;
     overflow:auto; 
     border:none;
 }
+
+hr{
+    border-color:rgb(165,165,102);
+    padding-top:0;
+    float:right;
+    position:relative;
+    z-index:1;
+
+}
+
+.uktour{
+
+     position:relative;
+     left:50; right:50;
+     top:50; bottom:50;
+     margin:auto;
+
+     max-width:100%;
+     max-height:100%;
+     overflow:auto;
+                                                                             
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
