@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+}
+
+
+.splashscreen{
+        width: 500px;
+        height: 500px;
+
+
+        position:absolute; 
+        left:50; right:50;
+        top:50; bottom:50;
+        margin:auto;
+
+        max-width:100%;
+        max-height:100%;
+        overflow:auto;
+        opacity:0.5;
+}
+
+
+.splashscreen:hover
+{
+    opacity:1;
+}
+
+
