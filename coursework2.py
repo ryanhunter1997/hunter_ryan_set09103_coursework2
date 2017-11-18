@@ -9,5 +9,9 @@ def splash():
 def home():
     return render_template('home.html'), 200
 
+@app.route('/listen')
+def listen():
+    return render_template('listen.html'),200
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug = True)

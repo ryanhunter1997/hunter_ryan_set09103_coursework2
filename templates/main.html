@@ -1,0 +1,40 @@
+<html>
+     <head>
+        <title>Foo Fighters</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='home.css')}}">  
+        <div style="width: 980px; margin: 0 auto; overflow: hidden;">
+        <div style="float: left; width: 80%;">Left Column</div>
+        <div style="float: right; width: 20%;">Right Column</div>
+        </div>
+        <hr width="100%">
+     </head>
+         
+        <body>
+             <div id="container">
+                <div id="leftblock">
+                </div>
+                <div id="rightblock">
+                </div>
+            </div>
+            
+            <div class="navcontainer">
+                <ul class="nav">
+                    <li>
+                            <img src="../static/home.png" alt="home logo">
+                    </li>
+                    <li><a href="http://0.0.0.0:5000/home">Home</a><li>   
+                    <li><a href="http://0.0.0.0:5000/listen">Listen</a><li>
+                    <li><a href="http://0.0.0.0:5000/watch">Watch</a><li>
+                    <li><a href="http://0.0.0.0:5000/events">Events</a></li>
+                    <li><a href="http://0.0.0.0:5000/social">Social</a></li>
+                </ul>
+            </div>
+            <div class="start">
+            {% block content%}{% endblock %}
+            </div>
+        </body>
+    </html>
+
+            
+
+ 

@@ -1,52 +1,18 @@
-<html>
-     <head>
-        <title>Home</title>
-        <link rel="stylesheet" type=text/css href="../static/home.css">  
-        <script src="../static/script.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-        <div style="width: 980px; margin: 0 auto; overflow: hidden;">
-        <div style="float: left; width: 80%;">Left Column</div>
-        <div style="float: right; width: 20%;">Right Column</div>
-        </div>
-        <hr width="100%">
-     </head>
-         
-        <body>
-             <div id="container">
-                <div id="leftblock">
-                </div>
-                <div id="rightblock">
-                </div>
-            </div>
-            
-            <div class="navcontainer">
-                <ul class="nav">
-                    <li>
-                        <p href="home">
-                            <img src="../static/home.png" alt="home logo">
-                        </p>
-                    </li>
-                    <li><a href="home">Home</a><li>   
-                    <li><a href="home/listen">Listen</a><li>
-                    <li><a href="home/watch">Watch</a><li>
-                    <li><a href="home/events">Events</a></li>
-                    <li><a href="home/social">Social</a></li>
-                </ul>
-            </div>
-                <div class="banner">
-                    <img src="../static/banner.jpg" alt="c&g banner">
-                </div> 
-                <div class="header1">
-                    <h1> The Sky is a Neighborhood<h1>
-                </div>
-                <div class = "sky">
-                        <iframe src="https://www.youtube.com/embed/TRqiFPpw2fY"></iframe>
-                </div>
-                <div class="header2">
-                    <h1>Run<h1>
-                </div>
-                <div class = "run">
-                    <iframe src="https://www.youtube.com/embed/ifwc5xgI3QM"></frame>
-                </div>   
-         </body>
-</html>
+{% extends "main.html" %}
+{% block content %}
+    <div class="banner">
+        <img src="../static/banner.jpg" alt="c&g banner">
+    </div> 
+    <div class="header1">
+        <h1> The Sky is a Neighborhood<h1>
+    </div>
+    <div class = "sky">
+        <iframe src="https://www.youtube.com/embed/TRqiFPpw2fY"></iframe>
+    </div>
+    <div class="header2">
+        <h1>Run<h1>
+    </div>
+    <div class = "run">
+        <iframe src="https://www.youtube.com/embed/ifwc5xgI3QM"></frame>
+    </div>   
+{% endblock %}
