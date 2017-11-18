@@ -1,114 +1,126 @@
 body{
     background-color: rgb(17,17,17);
-
+    overflow:hidden;
     
 }
 
-#container{
-    width:1000px;
+
+.nav{
+    left:700px;
+    padding-left:5px;
+    margin: none;
+    position: absolute;
+    text-align: center; 
+    display: inline-block;
 }
 
-#leftblock{
-    margin-left:20%;
-    float: left;
-    height: 100px;
-    width: 3px;
+.navcontainer{
+    height:5vh;
+    width:50vw;
+    
+
 }
 
-#rightblock{
-    margin-right:20%;
-    float: right;
-    height: 100px;
-    width: 3px;
-}
+
 
 ul{
     list-style-type:none;
-    margin:0;
     overflow:hidden;
     background-color: rgb(17,17,17);
     position:fixed;
     top:0;
-    padding-left: 500;    
-    padding-top: 40;
-    border-top:1px;
-    border-top:2px rgb(165,165,102) !important;
-    border:rgb(165,165,102)
+    padding-left: 200;    
+    padding-top: 39;
+    border-top:2px;
+    border-top:2px rgb(165,165,90) !important;
+    border:rgb(165,165,102);
+    margin: auto;
+    width: 70%;   
 }
 
 li{
     float: left;
-    
+    margin: 0 auto; 
 
 }
 
 li a:hover{
-    background-color:rgb(165,165,102);
+    background-color:rgb(165,165,90);
     color:rgb(17,17,17);
+    transition: 500ms
 
 }
 
-img {
-    padding: 0px 0px;
-    height:35px;
-}
+
 li a{
     display:block;
     font-family: Arial, sans-serif;
     font-weight: bold;
-    font-size: 18;
-    color:rgb(165,165,102);
+    font-size: 1em;
+    color:rgb(165,165,90);
     text-align:center;
     text-decoration: none;
-    padding: 20px 100px;
+    padding: 20px 50px;
 }
 
-iframe{
-    width: 600px;
-    height: 350px;
 
-
-    position:relative; 
-    padding-left:500; right:0;
-    top:0; bottom:0;
-    margin:auto;
-    max-width:100%;
-    max-height:auto%;
-    overflow:auto; 
-    border:none;
-}
 
 hr{
-    border-color:rgb(165,165,102);
-    padding-top:0;
+   
+    border-color:rgb(165,165,90);
+    padding-top:2;
     float:right;
     position:relative;
     z-index:1;
 
 }
 
-.uktour{
+.banner{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-right: 120px;
+    width:800px;
+    height200px;
+    padding-bottom:100px;
+}
 
-     position:relative;
-     left:50; right:50;
-     top:50; bottom:50;
-     margin:auto;
+.banner img{
+    width:100%;
+    height:auto;
+}
 
-     max-width:100%;
-     max-height:100%;
-     overflow:auto;
-                                                                             
+.header1{
+    color:rgb(165,165,90);
+    font-family: Arial, sans-serif;
+    padding-left:550px;
 }
 
 
+.sky iframe {
+    width: 600px;
+    height: 350px;
+    border: none;
+    display: block;
+    padding-left:450px;
+    position:fixed;
+}
 
 
+.header2{
+    color:rgb(165,165,90);
+    font-family: Arial, sans-serif;
+    padding-left: 1450px;
+    margin-top:-58px; 
+}
 
 
-
-
-
-
-
-
+.run iframe{
+    width: 600px;
+    height: 350px;
+    border: none;
+    display: block;
+    padding-left:1200px;
+     
+}
 
