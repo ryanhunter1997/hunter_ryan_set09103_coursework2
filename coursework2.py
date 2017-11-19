@@ -16,9 +16,14 @@ def listen():
 @app.route('/listen/concreteandgold')
 def candg():
     return render_template('candg.html'), 200
+
 @app.route('/listen/sonichighways')
 def sonic():
     return render_template('sonic.html'), 200
+
+@app.route('/listen/wastinglight')
+def wasting():
+    return render_template('wasting.html'), 200
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug = True)

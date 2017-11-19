@@ -4,138 +4,101 @@
     <script type="text/javascript"> 
     var isPlaying = false;
 
-    var tshirt = new Audio('../static/albums/candg/01. T-Shirt.mp3');
-    function play_tshirt(){
-        tshirt.play()
+    var sfn = new Audio('../static/albums/sh/01.Something From Nothing.mp3');
+    function play_sfn(){
+        sfn.play()
         isPlaying = true;
      }
 
-    function pause_tshirt(){
+    function pause_sfn(){
         if (isPlaying = true){
-            tshirt.pause();
+            sfn.pause();
         }
     }
 
 
-    var run  = new Audio('../static/albums/candg/02. Run.mp3');
-    function play_run(){
-        run.play()
+    var faf  = new Audio('../static/albums/sh/02.The Feast and the Famine.mp3');
+    function play_faf(){
+        faf.play()
         isPlaying = true;
      }
 
-    function pause_run(){
+    function pause_faf(){
         if (isPlaying = true){
-            run.pause();
-        }
-    }
-    
-    var mir = new Audio('../static/albums/candg/03. Make It Right.mp3');
-    function play_mir(){
-        mir.play()
-        isPlaying = true;
-     }
-
-    function pause_mir(){
-        if (isPlaying = true){
-            mir.pause();
+            faf.pause();
         }
     }
     
-    var sian = new Audio('../static/albums/candg/04. The Sky Is A Neighborhood.mp3');
-    function play_sian(){
-        sian.play()
+    var congregation = new Audio('../static/albums/sh/03.Congregation.mp3');
+    function play_congregation(){
+        congregation.play()
         isPlaying = true;
      }
 
-    function pause_sian(){
+    function pause_congregation(){
         if (isPlaying = true){
-            sian.pause();
+            congregation.pause();
+        }
+    }
+    
+    var wdid = new Audio('../static/albums/sh/04.What Did I DoGod as My Witness.mp3');
+    function play_wdid(){
+        wdid.play()
+        isPlaying = true;
+     }
+
+    function pause_wdid(){
+        if (isPlaying = true){
+            wdid.pause();
         }
     }
      
-    var ldd = new Audio('../static/albums/candg/05. La Dee Da.mp3');
-    function play_ldd(){
-        ldd.play()
+    var outside = new Audio('../static/albums/sh/05.Outside.mp3');
+    function play_outside(){
+        outside.play()
         isPlaying = true;
      }
 
-    function pause_ldd(){
+    function pause_outside(){
         if (isPlaying = true){
-            ldd.pause();
+            outside.pause();
         }
     }
     
-    var dw = new Audio('../static/albums/candg/06. Dirty Water.mp3');
-    function play_dw(){
-        dw.play()
+    var itc = new Audio('../static/albums/sh/06.In the Clear.mp3');
+    function play_itc(){
+        itc.play()
         isPlaying = true;
      }
 
-    function pause_dw(){
+    function pause_itc(){
         if (isPlaying = true){
-            dw.pause();
-        }
-    }
-    
-    
-    var arrows = new Audio('../static/albums/candg/07. Arrows.mp3');
-    function play_arrows(){
-        arrows.play()
-        isPlaying = true;
-     }
-
-    function pause_arrows(){
-        if (isPlaying = true){
-            arrows.pause();
-        }
-    }
-
-    var hea = new Audio('../static/albums/candg/08. Happy Ever After (Zero Hour).mp3');
-    function play_hea(){
-        hea.play()
-        isPlaying = true;
-     }
-
-    function pause_hea(){
-        if (isPlaying = true){
-            hea.pause();
-        }
-    }
-    
-    var sr = new Audio('../static/albums/candg/09. Sunday Rain.mp3');
-    function play_sr(){
-        sr.play()
-        isPlaying = true;
-     }
-
-    function pause_sr(){
-        if (isPlaying = true){
-            sr.pause();
-        }
-    }
-    
-    var tl = new Audio('../static/albums/candg/10. The Line.mp3');
-    function play_tl(){
-        tl.play()
-        isPlaying = true;
-     }
-
-    function pause_tl(){
-        if (isPlaying = true){
-            tl.pause();
+            itc.pause();
         }
     }
     
     
-    var candg = new Audio('../static/albums/candg/11. Concrete And Gold.mp3');
-    function play_candg(){
-        candg.play()
+    var subterranean = new Audio('../static/albums/sh/07.Subterranean.mp3');
+    function play_subterranean(){
+        subterranean.play()
         isPlaying = true;
      }
 
-    function pause_candg(){
+    function pause_subterranean(){
         if (isPlaying = true){
-            candg.pause();
+            subterranean.pause();
+        }
+    }
+
+    var iar = new Audio('../static/albums/sh/08.I Am a River.mp3');
+    function play_iar(){
+        iar.play()
+        isPlaying = true;
+     }
+
+    function pause_iar(){
+        if (isPlaying = true){
+            iar.pause();
         }
     }
     
@@ -145,95 +108,70 @@
     <div id="player"></div>
     <div class="listen_album">
         <img src="../static/sonichighways.jpg" alt="sonichighways">
-        <h1>Concrete And Gold (2017)</h1>
+        <h1>Sonic Highways (2014)</h1>
     </div>
 
     <div class="song_list">
         <table>
          <tr> 
-             <td><input class="playbtn" type="button" value="Play" onclick="play_tshirt()" />
-                 <input class="pausebtn" type="button" value="Pause" onclick="pause_tshirt()" /></td>
-             <td class="name">T-Shirt</td>
-             <td class="time">1:22</td>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_sfn()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_sfn()" /></td>
+             <td class="name">Something From Nothing</td>
+             <td class="time">4:48</td>
          </tr> 
          
          <tr>
-             <td><input class="playbtn" type="button" value="Play" onclick="play_run()" />
-                 <input class="pausebtn" type="button" value="Pause" onclick="pause_run()" /></td>
-             <td class="name">Run</td>
-             <td class="time">5:23</td>  
+             <td><input class="playbtn" type="button" value="Play" onclick="play_faf()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_faf()" /></td>
+             <td class="name">The Feast and the Famine</td>
+             <td class="time">3:50</td>  
          </tr>
              
          <tr>
-             <td><input class="playbtn" type="button" value="Play" onclick="play_mir()" />
-                 <input class="pausebtn" type="button" value="Pause" onclick="pause_mir()" /></td>
-             <td class="name">Make It Right</td>
-             <td class="time">4:39</td>  
+             <td><input class="playbtn" type="button" value="Play" onclick="play_congregation()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_congregation()" /></td>
+             <td class="name">Congregation</td>
+             <td class="time">5:12</td>  
          </tr> 
 
                  
          <tr>
-             <td><input class="playbtn" type="button" value="Play" onclick="play_sian()" />
-                 <input class="pausebtn" type="button" value="Pause" onclick="pause_sian()" /></td>
-             <td class="name">The Sky Is A Neighborhood</td>
-             <td class="time">4:04</td>  
+             <td><input class="playbtn" type="button" value="Play" onclick="play_wdid()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_wdid()" /></td>
+             <td class="name">What Did I Do? / God as My Witness</td>
+             <td class="time">5:44</td>  
          </tr>
         
 
          <tr>
-             <td><input class="playbtn" type="button" value="Play" onclick="play_ldd()" />
-                 <input class="pausebtn" type="button" value="Pause" onclick="pause_ldd()" /></td>
-             <td class="name">La Dee Da</td>
-             <td class="time">4:02</td>  
+             <td><input class="playbtn" type="button" value="Play" onclick="play_outside()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_outside()" /></td>
+             <td class="name">Outside</td>
+             <td class="time">5:15</td>  
          </tr>
 
          <tr>
-             <td><input class="playbtn" type="button" value="Play" onclick="play_dw()" />
-                 <input class="pausebtn" type="button" value="Pause" onclick="pause_dw()" /></td>
-             <td class="name">Dirty Water</td>
-             <td class="time">5:20</td>  
-         </tr>
-
-
-         <tr>
-             <td><input class="playbtn" type="button" value="Play" onclick="play_arrows()" />
-                 <input class="pausebtn" type="button" value="Pause" onclick="pause_arrows()" /></td>
-             <td class="name">Arrows</td>
-             <td class="time">4:26</td>  
+             <td><input class="playbtn" type="button" value="Play" onclick="play_itc()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_itc()" /></td>
+             <td class="name">In the Clear</td>
+             <td class="time">4:04</td>  
          </tr>
 
 
          <tr>
-             <td><input class="playbtn" type="button" value="Play" onclick="play_hea()" />
-                 <input class="pausebtn" type="button" value="Pause" onclick="pause_hea()" /></td>
-             <td class="name">Happy Ever After (Zero Hour)</td>
-             <td class="time">3:40</td>  
+             <td><input class="playbtn" type="button" value="Play" onclick="play_subterranean()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_subterranean()" /></td>
+             <td class="name">Subterranean</td>
+             <td class="time">6:08</td>  
+         </tr>
+
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_iar()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_iar()" /></td>
+             <td class="name">I Am a River</td>
+             <td class="time">7:09</td>  
          </tr>            
-
-
-         <tr>
-             <td><input class="playbtn" type="button" value="Play" onclick="play_sr()" />
-                 <input class="pausebtn" type="button" value="Pause" onclick="pause_sr()" /></td>
-             <td class="name">Sunday Rain</td>
-             <td class="time">6:11</td>  
-         </tr>            
-
-
-
-         <tr>
-             <td><input class="playbtn" type="button" value="Play" onclick="play_tl()" />
-                 <input class="pausebtn" type="button" value="Pause" onclick="pause_tl()" /></td>
-             <td class="name">The Line</td>
-             <td class="time">3:38</td>  
-         </tr>            
-
-
-         <tr>
-             <td><input class="playbtn" type="button" value="Play" onclick="play_candg()" />
-                 <input class="pausebtn" type="button" value="Pause" onclick="pause_candg()" /></td>
-             <td class="name">Concrete and Gold</td>
-             <td class="time">5:31</td>  
-         </tr>
 
         </table>         
     </div>
