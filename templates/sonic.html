@@ -1,0 +1,242 @@
+{% extends "home.html" %}
+{% block content %}
+
+    <script type="text/javascript"> 
+    var isPlaying = false;
+
+    var tshirt = new Audio('../static/albums/candg/01. T-Shirt.mp3');
+    function play_tshirt(){
+        tshirt.play()
+        isPlaying = true;
+     }
+
+    function pause_tshirt(){
+        if (isPlaying = true){
+            tshirt.pause();
+        }
+    }
+
+
+    var run  = new Audio('../static/albums/candg/02. Run.mp3');
+    function play_run(){
+        run.play()
+        isPlaying = true;
+     }
+
+    function pause_run(){
+        if (isPlaying = true){
+            run.pause();
+        }
+    }
+    
+    var mir = new Audio('../static/albums/candg/03. Make It Right.mp3');
+    function play_mir(){
+        mir.play()
+        isPlaying = true;
+     }
+
+    function pause_mir(){
+        if (isPlaying = true){
+            mir.pause();
+        }
+    }
+    
+    var sian = new Audio('../static/albums/candg/04. The Sky Is A Neighborhood.mp3');
+    function play_sian(){
+        sian.play()
+        isPlaying = true;
+     }
+
+    function pause_sian(){
+        if (isPlaying = true){
+            sian.pause();
+        }
+    }
+     
+    var ldd = new Audio('../static/albums/candg/05. La Dee Da.mp3');
+    function play_ldd(){
+        ldd.play()
+        isPlaying = true;
+     }
+
+    function pause_ldd(){
+        if (isPlaying = true){
+            ldd.pause();
+        }
+    }
+    
+    var dw = new Audio('../static/albums/candg/06. Dirty Water.mp3');
+    function play_dw(){
+        dw.play()
+        isPlaying = true;
+     }
+
+    function pause_dw(){
+        if (isPlaying = true){
+            dw.pause();
+        }
+    }
+    
+    
+    var arrows = new Audio('../static/albums/candg/07. Arrows.mp3');
+    function play_arrows(){
+        arrows.play()
+        isPlaying = true;
+     }
+
+    function pause_arrows(){
+        if (isPlaying = true){
+            arrows.pause();
+        }
+    }
+
+    var hea = new Audio('../static/albums/candg/08. Happy Ever After (Zero Hour).mp3');
+    function play_hea(){
+        hea.play()
+        isPlaying = true;
+     }
+
+    function pause_hea(){
+        if (isPlaying = true){
+            hea.pause();
+        }
+    }
+    
+    var sr = new Audio('../static/albums/candg/09. Sunday Rain.mp3');
+    function play_sr(){
+        sr.play()
+        isPlaying = true;
+     }
+
+    function pause_sr(){
+        if (isPlaying = true){
+            sr.pause();
+        }
+    }
+    
+    var tl = new Audio('../static/albums/candg/10. The Line.mp3');
+    function play_tl(){
+        tl.play()
+        isPlaying = true;
+     }
+
+    function pause_tl(){
+        if (isPlaying = true){
+            tl.pause();
+        }
+    }
+    
+    
+    var candg = new Audio('../static/albums/candg/11. Concrete And Gold.mp3');
+    function play_candg(){
+        candg.play()
+        isPlaying = true;
+     }
+
+    function pause_candg(){
+        if (isPlaying = true){
+            candg.pause();
+        }
+    }
+    
+    
+    </script>
+
+    <div id="player"></div>
+    <div class="listen_album">
+        <img src="../static/sonichighways.jpg" alt="sonichighways">
+        <h1>Concrete And Gold (2017)</h1>
+    </div>
+
+    <div class="song_list">
+        <table>
+         <tr> 
+             <td><input class="playbtn" type="button" value="Play" onclick="play_tshirt()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_tshirt()" /></td>
+             <td class="name">T-Shirt</td>
+             <td class="time">1:22</td>
+         </tr> 
+         
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_run()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_run()" /></td>
+             <td class="name">Run</td>
+             <td class="time">5:23</td>  
+         </tr>
+             
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_mir()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_mir()" /></td>
+             <td class="name">Make It Right</td>
+             <td class="time">4:39</td>  
+         </tr> 
+
+                 
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_sian()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_sian()" /></td>
+             <td class="name">The Sky Is A Neighborhood</td>
+             <td class="time">4:04</td>  
+         </tr>
+        
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_ldd()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_ldd()" /></td>
+             <td class="name">La Dee Da</td>
+             <td class="time">4:02</td>  
+         </tr>
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_dw()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_dw()" /></td>
+             <td class="name">Dirty Water</td>
+             <td class="time">5:20</td>  
+         </tr>
+
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_arrows()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_arrows()" /></td>
+             <td class="name">Arrows</td>
+             <td class="time">4:26</td>  
+         </tr>
+
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_hea()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_hea()" /></td>
+             <td class="name">Happy Ever After (Zero Hour)</td>
+             <td class="time">3:40</td>  
+         </tr>            
+
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_sr()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_sr()" /></td>
+             <td class="name">Sunday Rain</td>
+             <td class="time">6:11</td>  
+         </tr>            
+
+
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_tl()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_tl()" /></td>
+             <td class="name">The Line</td>
+             <td class="time">3:38</td>  
+         </tr>            
+
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_candg()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_candg()" /></td>
+             <td class="name">Concrete and Gold</td>
+             <td class="time">5:31</td>  
+         </tr>
+
+        </table>         
+    </div>
+        
+
+{% endblock %}
