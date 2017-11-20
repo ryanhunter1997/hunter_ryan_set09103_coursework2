@@ -1,0 +1,244 @@
+{% extends "home.html" %}
+{% block content %}
+
+    <script type="text/javascript"> 
+    var isPlaying = false;
+
+    var aml = new Audio('../static/albums/gh/01.All My Life.mp3');
+    function play_aml(){
+        aml.play()
+        isPlaying = true;
+     }
+
+    function pause_aml(){
+        if (isPlaying = true){
+            aml.pause();
+        }
+    }
+
+
+    var low  = new Audio('../static/albums/obo/02Low.mp3');
+    function play_low(){
+        low.play()
+        isPlaying = true;
+     }
+
+    function pause_low(){
+        if (isPlaying = true){
+            low.pause();
+        }
+    }
+    
+    var hia = new Audio('../static/albums/obo/03Have It All.mp3');
+    function play_hia(){
+        hia.play()
+        isPlaying = true;
+     }
+
+    function pause_hia(){
+        if (isPlaying = true){
+            hia.pause();
+        }
+    }
+    
+    var tlt = new Audio('../static/albums/obo/04Times Like These.mp3');
+    function play_tlt(){
+        tlt.play()
+        isPlaying = true;
+     }
+
+    function pause_tlt(){
+        if (isPlaying = true){
+            tlt.pause();
+        }
+    }
+     
+    var dl = new Audio('../static/albums/obo/05Disenchanted Lullaby.mp3');
+    function play_dl(){
+        dl.play()
+        isPlaying = true;
+     }
+
+    function pause_dl(){
+        if (isPlaying = true){
+            dl.pause();
+        }
+    }
+    
+    var toy = new Audio('../static/albums/obo/06Tired Of You.mp3');
+    function play_toy(){
+        toy.play()
+        isPlaying = true;
+     }
+
+    function pause_toy(){
+        if (isPlaying = true){
+            toy.pause();
+        }
+    }
+    
+    
+    var halo = new Audio('../static/albums/obo/07Halo.mp3');
+    function play_halo(){
+        halo.play()
+        isPlaying = true;
+     }
+
+    function pause_halo(){
+        if (isPlaying = true){
+            halo.pause();
+        }
+    }
+
+    var lay = new Audio('../static/albums/obo/08Lonely As You.mp3');
+    function play_lay(){
+        lay.play()
+        isPlaying = true;
+     }
+
+    function pause_lay(){
+        if (isPlaying = true){
+            lay.pause();
+        }
+    }
+    
+    
+    var overdrive = new Audio('../static/albums/obo/09Overdrive.mp3');
+    function play_overdrive(){
+        overdrive.play()
+        isPlaying = true;
+     }
+
+    function pause_overdrive(){
+        if (isPlaying = true){
+            overdrive.pause();
+        }
+    }
+
+
+    var ba = new Audio('../static/albums/obo/10Burn Away.mp3');
+    function play_ba(){
+        ba.play()
+        isPlaying = true;
+     }
+
+    function pause_ba(){
+        if (isPlaying = true){
+            ba.pause();
+        }
+    }
+
+
+    var cb = new Audio('../static/albums/obo/11Come Back.mp3');
+    function play_cb(){
+        cb.play()
+        isPlaying = true;
+     }
+
+    function pause_cb(){
+        if (isPlaying = true){
+            cb.pause();
+        }
+    }
+
+
+
+    </script>
+
+    <div id="player"></div>
+    <div class="listen_album">
+        <img src="../static/onebyone.jpg" alt="One By One (2002)">
+        <h1>One By One (2002)</h1>
+    </div>
+
+    <div class="song_list">
+        <table>
+         <tr> 
+             <td><input class="playbtn" type="button" value="Play" onclick="play_aml()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_aml()" /></td>
+             <td class="name">All My Life</td>
+             <td class="time">4:24</td>
+         </tr> 
+         
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_low()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_low()" /></td>
+             <td class="name">Low</td>
+             <td class="time">4:28</td>  
+         </tr>
+             
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_hia()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_hia()" /></td>
+             <td class="name">Have It All</td>
+             <td class="time">4:57</td>  
+         </tr> 
+
+                 
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_tlt()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_tlt()" /></td>
+             <td class="name">Times Like These</td>
+             <td class="time">4:25</td>  
+         </tr>
+        
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_dl()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_dl()" /></td>
+             <td class="name">Disenchanted Lullaby</td>
+             <td class="time">4:32</td>  
+         </tr>
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_toy()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_toy()" /></td>
+             <td class="name">Tired Of You</td>
+             <td class="time">5:11</td>  
+         </tr>
+
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_halo()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_halo()" /></td>
+             <td class="name">Halo</td>
+             <td class="time">5:06</td>  
+         </tr>
+
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_lay()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_lay()" /></td>
+             <td class="name">Lonely As You</td>
+             <td class="time">4:37</td>  
+         </tr>            
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_overdrive()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_overdrive()" /></td>
+             <td class="name">Overdrive</td>
+             <td class="time">4:30</td>  
+         </tr>
+
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_ba()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_ba()" /></td>
+             <td class="name">Burn Away</td>
+             <td class="time">4:57</td>  
+         </tr>            
+
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_cb()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_cb()" /></td>
+             <td class="name">Come Back</td>
+             <td class="time">7:49</td>  
+         </tr>            
+
+
+        </table>         
+    </div>
+        
+
+{% endblock %}

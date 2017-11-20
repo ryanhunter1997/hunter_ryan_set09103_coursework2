@@ -1,28 +1,28 @@
 body{
-    background-color: rgb(17,17,17);
+    background-color:rgb(17,17,17);
     overflow:hidden;
     
 }
 
 
+
 .nav{
-    left:700px;
-    padding-left:5px;
+    width:100%;
     margin: none;
     position: absolute;
     text-align: center; 
     display: inline-block;
+    left:-10px;
 }
 
 .navcontainer{
-    height:5vh;
-    width:50vw;   
-
+    height:5vh;   
 }
 
 
 
 ul{
+    padding-left:750px;
     list-style-type:none;
     overflow:hidden;
     background-color: rgb(17,17,17);
@@ -34,7 +34,7 @@ ul{
     border-top:2px rgb(165,165,90) !important;
     border:rgb(165,165,102);
     margin: auto;
-    width: 70%;   
+    width: 1920px;   
 }
 
 li a:hover{
@@ -196,6 +196,7 @@ hr{
 }
 .song_list tr{
     height:30px;
+    border-radius:50px;
 }
 
 .song_list tr:hover{
@@ -212,7 +213,7 @@ hr{
     font-family: Arial, sans-serif;
     font-weight:bold;
     font-size:25;
-    border-radius:5px;
+    border-radius:30px;
     height:20px;
     width:50px;
 

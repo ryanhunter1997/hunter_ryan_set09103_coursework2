@@ -1,0 +1,221 @@
+{% extends "home.html" %}
+{% block content %}
+
+    <script type="text/javascript"> 
+    var isPlaying = false;
+
+    var iyh = new Audio('../static/albums/iyh/In Your Honor.mp3');
+    function play_iyh(){
+        iyh.play()
+        isPlaying = true;
+     }
+
+    function pause_iyh(){
+        if (isPlaying = true){
+            iyh.pause();
+        }
+    }
+
+
+    var nwb  = new Audio('../static/albums/iyh/No Way Back.mp3');
+    function play_nwb(){
+        nwb.play()
+        isPlaying = true;
+     }
+
+    function pause_nwb(){
+        if (isPlaying = true){
+            nwb.pause();
+        }
+    }
+    
+    var boy = new Audio('../static/albums/iyh/Best Of You.mp3');
+    function play_boy(){
+        boy.play()
+        isPlaying = true;
+     }
+
+    function pause_boy(){
+        if (isPlaying = true){
+            boy.pause();
+        }
+    }
+    
+    var doa = new Audio('../static/albums/iyh/DOA.mp3');
+    function play_doa(){
+        doa.play()
+        isPlaying = true;
+     }
+
+    function pause_doa(){
+        if (isPlaying = true){
+            doa.pause();
+        }
+    }
+
+
+    var tls = new Audio('../static/albums/iyh/The Last Song.mp3');
+    function play_tls(){
+        tls.play()
+        isPlaying = true;
+     }
+
+    function pause_tls(){
+        if (isPlaying = true){
+            tls.pause();
+        }
+    }
+
+    var hell = new Audio('../static/albums/iyh/Hell.mp3');
+    function play_hell(){
+        hell.play()
+        isPlaying = true;
+     }
+
+    function pause_hell(){
+        if (isPlaying = true){
+            hell.pause();
+        }
+    }
+    
+    var fm = new Audio('../static/albums/iyh/Free Me.mp3');
+    function play_fm(){
+        fm.play()
+        isPlaying = true;
+     }
+
+    function pause_fm(){
+        if (isPlaying = true){
+            fm.pause();
+        }
+    }
+    
+    
+    var resolve = new Audio('../static/albums/iyh/Resolve.mp3');
+    function play_resolve(){
+        resolve.play()
+        isPlaying = true;
+     }
+
+    function pause_resolve(){
+        if (isPlaying = true){
+            resolve.pause();
+        }
+    }
+
+    var tdbab = new Audio('../static/albums/iyh/The Deepest Blues Are Black.mp3');
+    function play_tdbab(){
+        tdbab.play()
+        isPlaying = true;
+     }
+
+    function pause_tdbab(){
+        if (isPlaying = true){
+            tdbab.pause();
+        }
+    }
+    
+    
+    var eoe = new Audio('../static/albums/iyh/End Over End.mp3');
+    function play_eoe(){
+        eoe.play()
+        isPlaying = true;
+     }
+
+    function pause_eoe(){
+        if (isPlaying = true){
+            eoe.pause();
+        }
+    }
+
+
+    </script>
+
+    <div id="player"></div>
+    <div class="listen_album">
+        <img src="../static/inyourhonor.jpg" alt="In Your Honor">
+        <h1>In Your Honor (2005)</h1>
+    </div>
+
+    <div class="song_list">
+        <table>
+         <tr> 
+             <td><input class="playbtn" type="button" value="Play" onclick="play_iyh()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_iyh()" /></td>
+             <td class="name">In Your Honor</td>
+             <td class="time">3:50</td>
+         </tr> 
+         
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_nwb()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_nwb()" /></td>
+             <td class="name">No Way Back</td>
+             <td class="time">3:16</td>  
+         </tr>
+             
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_boy()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_boy()" /></td>
+             <td class="name">Best Of You</td>
+             <td class="time">4:15</td>  
+         </tr> 
+
+                 
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_doa()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_doa()" /></td>
+             <td class="name">DOA</td>
+             <td class="time">4:15</td>  
+         </tr>
+        
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_hell()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_hell()" /></td>
+             <td class="name">Hell</td>
+             <td class="time">1:57</td>  
+         </tr>
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_tls()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_tls()" /></td>
+             <td class="name">The Last Song</td>
+             <td class="time">3:19</td>  
+         </tr>
+
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_fm()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_fm()" /></td>
+             <td class="name">Free Me</td>
+             <td class="time">4:38</td>  
+         </tr>
+
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_resolve()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_resolve()" /></td>
+             <td class="name">Resolve</td>
+             <td class="time">4:48</td>  
+         </tr>            
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_tdbab()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_tdbab()" /></td>
+             <td class="name">The Deepest Blues Are Black</td>
+             <td class="time">3:58</td>  
+         </tr>
+
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_eoe()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_eoe()" /></td>
+             <td class="name">End Over End</td>
+             <td class="time">5:52</td>  
+         </tr>            
+
+        </table>         
+    </div>
+        
+
+{% endblock %}

@@ -1,0 +1,264 @@
+{% extends "home.html" %}
+{% block content %}
+
+    <script type="text/javascript"> 
+    var isPlaying = false;
+
+    var tp = new Audio('../static/albums/espg/01-The Pretender.mp3');
+    function play_tp(){
+        tp.play()
+        isPlaying = true;
+     }
+
+    function pause_tp(){
+        if (isPlaying = true){
+            tp.pause();
+        }
+    }
+
+
+    var lid  = new Audio('../static/albums/espg/02-Let It Die.mp3');
+    function play_lid(){
+        lid.play()
+        isPlaying = true;
+     }
+
+    function pause_lid(){
+        if (isPlaying = true){
+            lid.pause();
+        }
+    }
+    
+    var er = new Audio('../static/albums/espg/03-Erase Replace.mp3');
+    function play_er(){
+        er.play()
+        isPlaying = true;
+     }
+
+    function pause_er(){
+        if (isPlaying = true){
+            er.pause();
+        }
+    }
+    
+    var lrtr = new Audio('../static/albums/espg/04-Long Road To Ruin.mp3');
+    function play_lrtr(){
+        lrtr.play()
+        isPlaying = true;
+     }
+
+    function pause_lrtr(){
+        if (isPlaying = true){
+            lrtr.pause();
+        }
+    }
+     
+    var ca = new Audio('../static/albums/espg/05-Come Alive.mp3');
+    function play_ca(){
+        ca.play()
+        isPlaying = true;
+     }
+
+    function pause_ca(){
+        if (isPlaying = true){
+            ca.pause();
+        }
+    }
+    
+    var sthh = new Audio('../static/albums/espg/06-Stranger Things Have Happened.mp3');
+    function play_sthh(){
+        sthh.play()
+        isPlaying = true;
+     }
+
+    function pause_sthh(){
+        if (isPlaying = true){
+            sthh.pause();
+        }
+    }
+    
+    
+    var cub = new Audio('../static/albums/espg/07-Cheer Up, Boys(Your Make-Up Is Running).mp3');
+    function play_cub(){
+        cub.play()
+        isPlaying = true;
+     }
+
+    function pause_cub(){
+        if (isPlaying = true){
+            cub.pause();
+        }
+    }
+
+    var se = new Audio('../static/albums/espg/08-Summers End.mp3');
+    function play_se(){
+        se.play()
+        isPlaying = true;
+     }
+
+    function pause_se(){
+        if (isPlaying = true){
+            se.pause();
+        }
+    }
+    
+    
+    var botbm = new Audio('../static/albums/espg/09-Ballad Of The Beaconsfield Miners.mp3');
+    function play_botbm(){
+        botbm.play()
+        isPlaying = true;
+     }
+
+    function pause_botbm(){
+        if (isPlaying = true){
+            botbm.pause();
+        }
+    }
+
+
+    var statues = new Audio('../static/albums/espg/10-Statues.mp3');
+    function play_statues(){
+        statues.play()
+        isPlaying = true;
+     }
+
+    function pause_statues(){
+        if (isPlaying = true){
+            statues.pause();
+        }
+    }
+
+
+    var bh = new Audio('../static/albums/espg/11-But Honestly.mp3');
+    function play_bh(){
+        bh.play()
+        isPlaying = true;
+     }
+
+    function pause_bh(){
+        if (isPlaying = true){
+            bh.pause();
+        }
+    }
+
+
+    var home = new Audio('../static/albums/espg/12-Home.mp3');
+    function play_home(){
+        home.play()
+        isPlaying = true;
+     }
+
+    function pause_home(){
+        if (isPlaying = true){
+            home.pause();
+        }
+    }
+
+
+    </script>
+
+    <div id="player"></div>
+    <div class="listen_album">
+        <img src="../static/espg.jpg" alt="Echoes, Silence, Patience & Grace (2007)">
+        <h1>Echoes, Silence, Patience & Grace (2007)</h1>
+    </div>
+
+    <div class="song_list">
+        <table>
+         <tr> 
+             <td><input class="playbtn" type="button" value="Play" onclick="play_tp()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_tp()" /></td>
+             <td class="name">The Pretender</td>
+             <td class="time">4:28</td>
+         </tr> 
+         
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_lid()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_lid()" /></td>
+             <td class="name">Let it Die</td>
+             <td class="time">4:05</td>  
+         </tr>
+             
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_er()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_er()" /></td>
+             <td class="name">Erase-Replace</td>
+             <td class="time">4:13</td>  
+         </tr> 
+
+                 
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_lrtr()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_lrtr()" /></td>
+             <td class="name">Long Road to Ruin</td>
+             <td class="time">3:45</td>  
+         </tr>
+        
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_ca()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_ca()" /></td>
+             <td class="name">Come Alive</td>
+             <td class="time">5:11</td>  
+         </tr>
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_sthh()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_sthh()" /></td>
+             <td class="name">Stranger Things Have Happened</td>
+             <td class="time">5:21</td>  
+         </tr>
+
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_cub()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_cub()" /></td>
+             <td class="name">Cheer Up, Boys (your make up is running)</td>
+             <td class="time">3:41</td>  
+         </tr>
+
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_se()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_se()" /></td>
+             <td class="name">Summer's End</td>
+             <td class="time">4:38</td>  
+         </tr>            
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_botbm()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_botbm()" /></td>
+             <td class="name">Ballad of the Beaconsfield Miners</td>
+             <td class="time">2:32</td>  
+         </tr>
+
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_statues()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_statues()" /></td>
+             <td class="name">Statues</td>
+             <td class="time">3:48</td>  
+         </tr>            
+
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_bh()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_bh()" /></td>
+             <td class="name">But, Honestly</td>
+             <td class="time">4:36</td>  
+         </tr>            
+
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_home()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_home()" /></td>
+             <td class="name">Home</td>
+             <td class="time">4:53</td>  
+         </tr>
+
+
+        </table>         
+    </div>
+        
+
+{% endblock %}

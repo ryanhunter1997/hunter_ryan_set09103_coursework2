@@ -1,0 +1,239 @@
+{% extends "home.html" %}
+{% block content %}
+
+    <script type="text/javascript"> 
+    var isPlaying = false;
+
+    var bb = new Audio('../static/albums/wl/01 - Bridge Burning.mp3');
+    function play_bb(){
+        bb.play()
+        isPlaying = true;
+     }
+
+    function pause_bb(){
+        if (isPlaying = true){
+            bb.pause();
+        }
+    }
+
+
+    var rope  = new Audio('../static/albums/wl/02 - Rope.mp3');
+    function play_rope(){
+        rope.play()
+        isPlaying = true;
+     }
+
+    function pause_rope(){
+        if (isPlaying = true){
+            rope.pause();
+        }
+    }
+    
+    var dr = new Audio('../static/albums/wl/03 - Dear Rosemary.mp3');
+    function play_dr(){
+        dr.play()
+        isPlaying = true;
+     }
+
+    function pause_dr(){
+        if (isPlaying = true){
+            dr.pause();
+        }
+    }
+    
+    var wl = new Audio('../static/albums/wl/04 - White Limo.mp3');
+    function play_wl(){
+        wl.play()
+        isPlaying = true;
+     }
+
+    function pause_wl(){
+        if (isPlaying = true){
+            wl.pause();
+        }
+    }
+     
+    var arlandria = new Audio('../static/albums/wl/05 - Arlandria.mp3');
+    function play_arlandria(){
+        arlandria.play()
+        isPlaying = true;
+     }
+
+    function pause_arlandria(){
+        if (isPlaying = true){
+            arlandria.pause();
+        }
+    }
+    
+    var td = new Audio('../static/albums/wl/06 - These Days.mp3');
+    function play_td(){
+        td.play()
+        isPlaying = true;
+     }
+
+    function pause_td(){
+        if (isPlaying = true){
+            td.pause();
+        }
+    }
+    
+    
+    var bandf = new Audio('../static/albums/wl/07 - Back & Forth.mp3');
+    function play_bandf(){
+        bandf.play()
+        isPlaying = true;
+     }
+
+    function pause_bandf(){
+        if (isPlaying = true){
+            bandf.pause();
+        }
+    }
+
+    var amt = new Audio('../static/albums/wl/08 - A Matter Of Time.mp3');
+    function play_amt(){
+        amt.play()
+        isPlaying = true;
+     }
+
+    function pause_amt(){
+        if (isPlaying = true){
+            amt.pause();
+        }
+    }
+    
+    
+    var mtm = new Audio('../static/albums/wl/09 - Miss The Misery.mp3');
+    function play_mtm(){
+        mtm.play()
+        isPlaying = true;
+     }
+
+    function pause_mtm(){
+        if (isPlaying = true){
+            mtm.pause();
+        }
+    }
+
+
+    var ishk = new Audio('../static/albums/wl/10 - I Should Have Known.mp3');
+    function play_ishk(){
+        ishk.play()
+        isPlaying = true;
+     }
+
+    function pause_ishk(){
+        if (isPlaying = true){
+            ishk.pause();
+        }
+    }
+
+
+    var walk = new Audio('../static/albums/wl/11 - Walk.mp3');
+    function play_walk(){
+        walk.play()
+        isPlaying = true;
+     }
+
+    function pause_walk(){
+        if (isPlaying = true){
+            walk.pause();
+        }
+    }
+
+    </script>
+
+    <div id="player"></div>
+    <div class="listen_album">
+        <img src="../static/wastinglight.jpg" alt="wastinglight">
+        <h1>Wasting Light (2011)</h1>
+    </div>
+
+    <div class="song_list">
+        <table>
+         <tr> 
+             <td><input class="playbtn" type="button" value="Play" onclick="play_bb()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_bb()" /></td>
+             <td class="name">Bridge Burning</td>
+             <td class="time">4:47</td>
+         </tr> 
+         
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_rope()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_rope()" /></td>
+             <td class="name">Rope</td>
+             <td class="time">4:19</td>  
+         </tr>
+             
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_dr()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_dr()" /></td>
+             <td class="name">Dear Rosemary</td>
+             <td class="time">4:27</td>  
+         </tr> 
+
+                 
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_wl()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_wl()" /></td>
+             <td class="name">White Limo</td>
+             <td class="time">3:23</td>  
+         </tr>
+        
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_arlandria()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_arlandria()" /></td>
+             <td class="name">Arlandria</td>
+             <td class="time">4:28</td>  
+         </tr>
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_td()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_td()" /></td>
+             <td class="name">These Days</td>
+             <td class="time">4:59</td>  
+         </tr>
+
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_bandf()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_bandf()" /></td>
+             <td class="name">Back & Forth</td>
+             <td class="time">3:52</td>  
+         </tr>
+
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_amt()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_amt()" /></td>
+             <td class="name">A Matter of Time</td>
+             <td class="time">4:36</td>  
+         </tr>            
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_mtm()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_mtm()" /></td>
+             <td class="name">Miss the Misery</td>
+             <td class="time">4:34</td>  
+         </tr>            
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_ishk()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_ishk()" /></td>
+             <td class="name">I Should Have Known</td>
+             <td class="time">4:16</td>  
+         </tr>            
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_walk()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_walk()" /></td>
+             <td class="name">Walk</td>
+             <td class="time">4:16</td>  
+         </tr>            
+
+        </table>         
+    </div>
+        
+
+{% endblock %}

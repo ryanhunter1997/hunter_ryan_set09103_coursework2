@@ -1,0 +1,344 @@
+{% extends "home.html" %}
+{% block content %}
+
+    <script type="text/javascript"> 
+    var isPlaying = false;
+
+    var aml = new Audio('../static/albums/gh/01.All My Life.mp3');
+    function play_aml(){
+        aml.play()
+        isPlaying = true;
+     }
+
+    function pause_aml(){
+        if (isPlaying = true){
+            aml.pause();
+        }
+    }
+
+
+    var boy  = new Audio('../static/albums/gh/02.Best of You.mp3');
+    function play_boy(){
+        boy.play()
+        isPlaying = true;
+     }
+
+    function pause_boy(){
+        if (isPlaying = true){
+            boy.pause();
+        }
+    }
+    
+    var everlong = new Audio('../static/albums/gh/03.Everlong.mp3');
+    function play_everlong(){
+        everlong.play()
+        isPlaying = true;
+     }
+
+    function pause_everlong(){
+        if (isPlaying = true){
+            everlong.pause();
+        }
+    }
+    
+    var tp = new Audio('../static/albums/gh/04.ThePretender.mp3');
+    function play_tp(){
+        tp.play()
+        isPlaying = true;
+     }
+
+    function pause_tp(){
+        if (isPlaying = true){
+            tp.pause();
+        }
+    }
+     
+    var mh = new Audio('../static/albums/gh/05.My Hero.mp3');
+    function play_mh(){
+        mh.play()
+        isPlaying = true;
+     }
+
+    function pause_mh(){
+        if (isPlaying = true){
+            mh.pause();
+        }
+    }
+    
+    var ltf = new Audio('../static/albums/gh/06.Learn to Fly.mp3');
+    function play_ltf(){
+        ltf.play()
+        isPlaying = true;
+     }
+
+    function pause_ltf(){
+        if (isPlaying = true){
+            ltf.pause();
+        }
+    }
+    
+    
+    var tlt = new Audio('../static/albums/gh/07.Times Like These.mp3');
+    function play_tlt(){
+        tlt.play()
+        isPlaying = true;
+     }
+
+    function pause_tlt(){
+        if (isPlaying = true){
+            tlt.pause();
+        }
+    }
+
+    var mw = new Audio('../static/albums/gh/08.Monkey Wrench.mp3');
+    function play_mw(){
+        mw.play()
+        isPlaying = true;
+     }
+
+    function pause_mw(){
+        if (isPlaying = true){
+            mw.pause();
+        }
+    }
+    
+    
+    var bm = new Audio('../static/albums/gh/09.Big Me.mp3');
+    function play_bm(){
+        bm.play()
+        isPlaying = true;
+     }
+
+    function pause_bm(){
+        if (isPlaying = true){
+            bm.pause();
+        }
+    }
+
+
+    var breakout = new Audio('../static/albums/gh/10.Breakout.mp3');
+    function play_breakout(){
+        breakout.play()
+        isPlaying = true;
+     }
+
+    function pause_breakout(){
+        if (isPlaying = true){
+            breakout.pause();
+        }
+    }
+
+
+    var lrtr = new Audio('../static/albums/gh/11.Long Road to Ruin.mp3');
+    function play_lrtr(){
+        lrtr.play()
+        isPlaying = true;
+     }
+
+    function pause_lrtr(){
+        if (isPlaying = true){
+            lrtr.pause();
+        }
+    }
+
+
+    var tiac = new Audio('../static/albums/gh/12.This is a Call.mp3');
+    function play_tiac(){
+        tiac.play()
+        isPlaying = true;
+     }
+
+    function pause_tiac(){
+        if (isPlaying = true){
+            tiac.pause();
+        }
+    }
+
+    var sab = new Audio('../static/albums/gh/13.Skin and Bones.mp3');
+    function play_sab(){
+        sab.play()
+        isPlaying = true;
+     }
+
+    function pause_sab(){
+        if (isPlaying = true){
+            sab.pause();
+        }
+    }
+
+
+    var wheels = new Audio('../static/albums/gh/14.Wheels.mp3');
+    function play_wheels(){
+        wheels.play()
+        isPlaying = true;
+     }
+
+    function pause_wheels(){
+        if (isPlaying = true){
+            wheels.pause();
+        }
+    }
+
+
+    var wf  = new Audio('../static/albums/gh/15.Word Forward.mp3');
+    function play_wf(){
+        wf.play()
+        isPlaying = true;
+     }
+
+    function pause_wf(){
+        if (isPlaying = true){
+            wf.pause();
+        }
+    }
+
+
+    var ea = new Audio('../static/albums/gh/16.Everlong(Acoustic).mp3');
+    function play_ea(){
+        ea.play()
+        isPlaying = true;
+     }
+
+    function pause_ea(){
+        if (isPlaying = true){
+            ea.pause();
+        }
+    }
+
+    </script>
+
+    <div id="player"></div>
+    <div class="listen_album">
+        <img src="../static/greatesthits.jpg" alt="Greatest Hits">
+        <h1>Greatest Hits (2009)</h1>
+    </div>
+
+    <div class="song_list">
+        <table>
+         <tr> 
+             <td><input class="playbtn" type="button" value="Play" onclick="play_aml()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_aml()" /></td>
+             <td class="name">All My Life</td>
+             <td class="time">4:24</td>
+         </tr> 
+         
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_boy()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_boy()" /></td>
+             <td class="name">Best of You</td>
+             <td class="time">4:16</td>  
+         </tr>
+             
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_everlong()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_everlong()" /></td>
+             <td class="name">Everlong</td>
+             <td class="time">4:11</td>  
+         </tr> 
+
+                 
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_tp()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_tp()" /></td>
+             <td class="name">The Pretender</td>
+             <td class="time">4:28</td>  
+         </tr>
+        
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_mh()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_mh()" /></td>
+             <td class="name">My Hero</td>
+             <td class="time">4:20</td>  
+         </tr>
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_ltf()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_ltf()" /></td>
+             <td class="name">Learn To Fly</td>
+             <td class="time">3:55</td>  
+         </tr>
+
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_tlt()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_tlt()" /></td>
+             <td class="name">Times like These</td>
+             <td class="time">4:26</td>  
+         </tr>
+
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_mw()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_mw()" /></td>
+             <td class="name">Moneky Wrench</td>
+             <td class="time">3:51</td>  
+         </tr>            
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_bm()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_bm()" /></td>
+             <td class="name">Big Me</td>
+             <td class="time">2:13</td>  
+         </tr>
+
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_breakout()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_breakout()" /></td>
+             <td class="name">Breakout</td>
+             <td class="time">3:21</td>  
+         </tr>            
+
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_lrtr()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_lrtr()" /></td>
+             <td class="name">Long Road to Ruin</td>
+             <td class="time">3:45</td>  
+         </tr>            
+
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_tiac()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_tiac()" /></td>
+             <td class="name">This Is a Call</td>
+             <td class="time">3:54</td>  
+         </tr>
+
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_sab()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_sab()" /></td>
+             <td class="name">Skin and Bones</td>
+             <td class="time">4:04</td>  
+         </tr>            
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_wheels()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_wheels()" /></td>
+             <td class="name">Wheels</td>
+             <td class="time">4:38</td>  
+         </tr>            
+
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_wf()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_wf()" /></td>
+             <td class="name">Word Forward</td>
+             <td class="time">3:47</td>  
+         </tr>            
+        
+
+         <tr>
+             <td><input class="playbtn" type="button" value="Play" onclick="play_ea()" />
+                 <input class="pausebtn" type="button" value="Pause" onclick="pause_ea()" /></td>
+             <td class="name">Everlong (Acoustic)</td>
+             <td class="time">4:11</td>  
+         </tr>            
+
+        </table>         
+    </div>
+        
+
+{% endblock %}
