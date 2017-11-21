@@ -13,6 +13,10 @@ def home():
 def listen():
     return render_template('listen.html'),200
 
+@app.route('/watch')
+def watch():
+    return render_template('watch.html'), 200
+
 @app.route('/listen/concreteandgold')
 def candg():
     return render_template('candg.html'), 200
@@ -52,6 +56,55 @@ def tcats():
 @app.route('/listen/foofighters')
 def foo():
     return render_template('foo.html'), 200
+
+@app.route('/watch/sky')
+def sky():
+    return render_template('sky.html'), 200
+
+@app.route('/watch/run')
+def run():
+    return render_template('run.html'), 200
+
+@app.route('/watch/pretender')
+def pre():
+    return render_template('pretender.html'), 200
+
+@app.route('/watch/everlong')
+def ever():
+    return render_template('everlong.html'), 200
+
+@app.route('/watch/learntofly')
+def fly():
+    return render_template('learntofly.html'), 200
+
+@app.route('/watch/allmylife')
+def life():
+    return render_template('allmylife.html'), 200
+
+
+@app.route('/watch/somethingfromnothing')
+def something():
+    return render_template('somethingfromnothing.html'), 200
+
+@app.route('/watch/congregation')
+def congregation():
+    return render_template('congregation.html'), 200
+
+@app.route('/watch/timeslikethese')
+def times():
+    return render_template('timeslikethese.html'), 200
+
+@app.route('/watch/walk')
+def walk():
+    return render_template('walk.html'),200
+
+@app.route('/events')
+def events():
+    return render_template('events.html'),200
+
+@app.route('/social')
+def social():
+    return render_template('social.html'),200
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug = True)

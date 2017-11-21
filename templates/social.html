@@ -1,0 +1,15 @@
+{% extends "home.html" %}
+{% block content %}
+
+<script>
+    twttr.widgets.createTimeline(
+    {   sourceType: "profile",
+        screenName: "TwitterDev"
+    },
+        document.getElementById("container")
+            );
+</script>
+
+<a class="twitter-timeline" href="https://twitter.com/{foofighters}">Tweets by @{foofighters}</a>
+
+{% endblock %}

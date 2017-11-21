@@ -29,7 +29,7 @@ ul{
     position:fixed;
     top:0;
     padding-left: 200;    
-    padding-top: 35px;
+    padding-top: 38px;
     border-top:2px;
     border-top:2px rgb(165,165,90) !important;
     border:rgb(165,165,102);
@@ -158,6 +158,35 @@ hr{
     margin-top:-5px;
 }
 
+.videosheader{
+    padding-left:50px;
+    color:rgb(160,160,90);
+    font-family: arial, sans-serif;
+}
+
+.videos_table img{
+    height:100%;
+    width:100%;
+}
+
+.videos_table tr{
+    padding-top:250px;
+}
+
+.videos_table td{
+    padding-left:50px;
+    padding-right:50px;
+    height:300px;
+    width:6000px;
+}
+
+.videos_table h3{
+    color:rgb(160,160,90);
+    font-family: Arial, sans-serif;
+    margin-top:-5px;
+}
+
+
 .listen_album{
     width:400px;
     height:400px;
@@ -246,3 +275,81 @@ td.playbtn{
     padding-left:10px;
 }
 
+
+.videos{
+    margin: auto;
+    height:500px;
+    width:900px;
+    padding-top:100px;
+    padding-left:0px;
+
+}
+.videos iframe{
+    border:none;
+    width:100%;
+    height:100%;
+}
+
+.videos h1{
+    color:rgb(160,160,90);
+    font-family: Arial, sans-serif;
+}
+
+.events_table{
+    margin:auto;
+    padding-left:625px;
+    padding-top: 100px;
+}
+
+.events_table h1{
+    color:rgb(160,160,90);
+    font-family: Arial, sans-serif;
+    text-decoration: underline;
+}
+
+.events_table td{
+    padding-left:100px;
+}
+
+.events_table h2{
+    color:rgb(160,160,90);
+    font-family: arial, sans-serif;
+}
+
+
+
+.events_table input{
+    border:none;
+    background-color:rgb(17,17,17);
+    color:rgb(160,160,90);
+    font-family: Arial, sans-serif;
+    font-weight:bold;
+    border-radius:30px;
+    height:40px;
+    width:70px;
+}
+
+
+
+.events_table input:hover{
+    background-color:rgb(160,160,90);
+    color:rgb(17,17,17);
+    height:60px;
+    width:90px;
+    transition:500ms;
+}
+
+#twitter-widget-holder{
+    height:400px;
+    width:320px;
+    padding:20px;
+    background:#fff;
+    border-radius:3px;
+    
+}
+
+.twitter-timeline{
+    height:400%; !important
+    width:400%; !important
+    z-index:1;
+}
